@@ -1,0 +1,21 @@
+{
+    "name": "Cookie隔离器-多账号登录器",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Cookie隔离器,可以使你的chrome登录某个网站的多个账号，比如登录多个账号用于12306抢票，抢红米小米手机。使用方法：点击应用的图标即可使当前页面的cookie独立出来从而登录其它账号",
+    "browser_action": {"default_icon": "icon32a.png"},
+    "background": {
+        "page": "background.html"
+    },
+    "icons": {"48": "icon48.png"},
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "cookies",
+        "http://*/*",
+        "https://*/*",
+        "notifications",       
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
