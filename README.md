@@ -7,5 +7,6 @@ Chrome extension. Separate cookies per tab, allow us open an website with differ
 ### Install
 
 
+
 ### Usage
-    Click the icon of the app to switch cookies between global and separated
+Click the icon of the app to switch cookies between global and separated
